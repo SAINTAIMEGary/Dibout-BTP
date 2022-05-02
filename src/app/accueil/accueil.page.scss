@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #00449a;
+}
+
+#line {
+    position: absolute;
+    background: white;
+    transform: rotate(160deg);
+    width: 90vh;
+    height: 85vh;
+    top: 50vh;
+    border: 1px black;
+}
+
+#boutons {
+    position: relative;
+    top: 65vh;
+    align-items: center;
+    flex-direction: column;
+    color: black;
+
+    #hometitre {
+        text-align: center;
+    }
+
+}
